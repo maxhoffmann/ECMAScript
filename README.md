@@ -1,7 +1,8 @@
-ECMAScript Language File
-========================
+ECMAScript
+==========
 
-This project aims to provide an up-to-date .tmLanguage file for JavaScript including properties and functions of the browser environment.
+This project aims to provide an up-to-date .tmLanguage file for the latest [ECMAScript specification](http://www.ecma-international.org/ecma-262/5.1
+) including properties and functions of the browser environment.
 
 ## Contributing
 
