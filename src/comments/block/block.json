@@ -1,0 +1,6 @@
+{
+  "comment": "Comment Block",
+  "name": "comment.block.js",
+  "begin": "\/\\*",
+  "end": "\\*\/"
+}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>js</string>
+	</array>
+	<key>name</key>
+	<string>ECMAScript</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>/\*</string>
+			<key>comment</key>
+			<string>Comment Block</string>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>comment.block.js</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Comment Line</string>
+			<key>match</key>
+			<string>(//).*$\n?</string>
+			<key>name</key>
+			<string>comment.line.js</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Boolean true</string>
+			<key>match</key>
+			<string>\b(true)\b</string>
+			<key>name</key>
+			<string>constant.language.boolean.true.js</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Boolean false</string>
+			<key>match</key>
+			<string>\b(false)\b</string>
+			<key>name</key>
+			<string>constant.language.boolean.false.js</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Classes</string>
+			<key>match</key>
+			<string>\b(Array|Boolean|Date|Error|Function|JSON|Math|Number|Object|RegExp|String)\b</string>
+			<key>name</key>
+			<string>constant.language.class.js</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Numbers</string>
+			<key>match</key>
+			<string>\b((0(x|X)[0-9a-fA-F]+)|([0-9]+(\.[0-9]+)?))\b</string>
+			<key>name</key>
+			<string>constant.numeric.js</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>comment</key>
+			<string>String Double</string>
+			<key>end</key>
+			<string>"</string>
+			<key>name</key>
+			<string>strings.quoted.double.js</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>'</string>
+			<key>comment</key>
+			<string>String Single</string>
+			<key>end</key>
+			<string>'</string>
+			<key>name</key>
+			<string>strings.quoted.single.js</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>21314a09-71b5-411d-be93-75b778cad440</string>
+</dict>
+</plist>

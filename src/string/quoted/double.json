@@ -1,0 +1,6 @@
+,{
+  "comment": "String Double",
+  "name": "strings.quoted.double.js",
+  "begin": "\"",
+  "end": "\""
+}

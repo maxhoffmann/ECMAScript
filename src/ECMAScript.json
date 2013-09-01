@@ -1,0 +1,5 @@
+{
+  "name": "ECMAScript",
+  "scopeName": "source.js",
+  "fileTypes": ["js"],
+  "patterns": [

@@ -1,0 +1,5 @@
+,{
+  "comment": "Comment Line",
+  "name": "comment.line.js",
+  "match": "(//).*$\\n?"
+}

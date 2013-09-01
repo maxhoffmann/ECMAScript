@@ -1,0 +1,12 @@
+,{
+  "comment": "Boolean true",
+  "name": "constant.language.boolean.true.js",
+  "match": "\\b(true)\\b"
+}
+
+,{
+  "comment": "Boolean false",
+  "name": "constant.language.boolean.false.js",
+  "match": "\\b(false)\\b"
+}
+

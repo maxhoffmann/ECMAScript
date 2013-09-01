@@ -1,0 +1,5 @@
+,{
+  "comment": "Classes",
+  "name": "constant.language.class.js",
+  "match": "\\b(Array|Boolean|Date|Error|Function|JSON|Math|Number|Object|RegExp|String)\\b"
+}

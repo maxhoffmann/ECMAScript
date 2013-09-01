@@ -1,0 +1,6 @@
+,{
+  "comment": "String Single",
+  "name": "strings.quoted.single.js",
+  "begin": "'",
+  "end": "'"
+}
